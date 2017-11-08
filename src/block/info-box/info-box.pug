@@ -1,0 +1,12 @@
+mixin b-info-box(data, cls)
+	+b.info-box(class= cls)
+		each item in data
+			+e.item
+				if item.type == 'phone'
+					+e.A.link(href='tel:' + item.href, class= '_' + item.type)!= item.name
+				if item.type == 'mail'
+					+e.A.link(href='mailto:' + item.href, class= '_' + item.type)!= item.name
+				if item.type == ''
+					+e.A.link(href=item.href)!= item.name
+				if item.type == 'address'
+					+e.ADDRESS.text(class= '_' + item.type)!= item.name

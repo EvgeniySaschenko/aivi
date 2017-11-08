@@ -1,0 +1,28 @@
+button(icon, color)
+	.button
+		border-color color
+		color color
+		transition all .2s ease
+		&__icon
+			.my-icon::before
+				font-family icomoon
+				content icon
+				padding-left 2px
+		&:hover
+			border-color darken(color, 20%)
+			color darken(color, 20%)
+
+
+
+// transitions
+transition()
+	-webkit-transition arguments
+	-moz-transition arguments
+	-ms-transition arguments
+	-o-transition arguments
+	transition arguments
+
+// antialiasing mode font rendering for mac os
+font-smoothing()
+	-webkit-font-smoothing antialiased
+	-moz-osx-font-smoothing grayscale

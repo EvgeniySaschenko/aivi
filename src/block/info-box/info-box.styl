@@ -1,0 +1,19 @@
+.info-box
+	display: flex
+	&__item
+		padding: 35px 53px
+		white-space: nowrap
+	&__link
+		position: relative
+	&__link::after
+		content: ""
+		width: 100%
+		display: inline-block
+		border 2px solid colorCorp
+		position absolute
+		bottom: -10px
+		left: 0
+	&__link_phone
+		font-size: 15px
+		&::after
+			border 0

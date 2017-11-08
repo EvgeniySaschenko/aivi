@@ -1,0 +1,22 @@
+include  ../block/index
+include ../../node_modules/bemto.pug/bemto
+
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, user-scalable=yes")
+		link(rel="shortcut icon" href="/img/icon.ico" type="image/ico")
+		title Aevi
+
+	body
+		+b.page_home.container
+			+b-header()
+			MAIN.main#content
+				block main
+
+			+b-footer()
+
+		link(rel="stylesheet" href="/css/aivi.css")
+		script(type="text/javascript" src="/js/main.js")
+		script(src="https://use.fontawesome.com/3b7ec9f113.js")

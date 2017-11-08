@@ -1,0 +1,5 @@
+mixin b-social-btn(data, cls)
+	+b.social-btn(class= cls)
+		each item in data
+			+e.I.item
+				+e.link(href= item.href class= item.icon)

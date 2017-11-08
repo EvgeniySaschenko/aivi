@@ -1,0 +1,66 @@
+{
+	"titlePage" : "КЛУБНЫЙ ДОМ <br> ПРЕМИУМ-КЛАССА",
+	"navBtnBurgerText" : "МЕНЮ",
+	"nav" : [
+		{
+			"name" : "ДОМ",
+			"href" : "#"
+		},
+		{
+			"name" : "АРХИТЕКТУРА",
+			"href" : "#"
+		},
+		{
+			"name" : "ИНТЕРЬЕР",
+			"href" : "#"
+		},
+		{
+			"name" : "ПОМЕЩЕНИЯ",
+			"href" : "#"
+		},
+		{
+			"name" : "КОМАНДА",
+			"href" : "#"
+		}
+	],
+	"socialBtn" : [
+		{
+			"icon" : "fa fa-instagram",
+			"href" : "#"
+		},
+		{
+			"icon" : "fa fa-facebook-official",
+			"href" : "#"
+		}
+	],
+	"topInfo" : [
+		{
+			"name" : "г. Пенза, Цветной бульвар, д. 32, к. 4",
+			"type" : "address"
+		},
+		{
+			"name" : "Документы",
+			"type" : "",
+			"href" : "#"
+		},
+		{
+			"name" : "+7 (495) 966-07-66",
+			"href" : "+74959660766",
+			"type" : "phone"
+		},
+		{
+			"name" : "Заказать звонок",
+			"type" : "",
+			"href" : "#"
+		}
+	],
+	"linkPlus" : {
+		"name" : "ПОДРОБНЕЕ",
+		"link" : "#"
+	},
+	"iconCall" : "fa fa-phone",
+	"linkSee" :{
+		"name" : "ПОДРОБНЕЕ",
+		"href" : "#"
+	}
+}

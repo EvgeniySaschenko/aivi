@@ -1,0 +1,4 @@
+mixin b-link-plus(data, cls)
+	+b.link-plus
+		+e.I.icon +
+		+e.A.link(href= data.href class= cls)!= data.name

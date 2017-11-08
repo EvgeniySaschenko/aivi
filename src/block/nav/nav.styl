@@ -1,0 +1,31 @@
+@import "_header/nav_header.styl";
+
+.nav
+	display: flex
+	&__menu
+		display: flex
+	&__item
+		width: 220px
+		text-align center
+	&__link
+		display: inline-block
+		width: 100%
+		position: relative
+	&__link::after
+			content: ""
+			width: 100%
+			display: inline-block
+			transition 0.5s cubic-bezier(0.77, 0, 0.175, 1)
+			transition-property opacity, transform;
+	&__item:first-child
+		.nav__link::after
+			border 2px solid colorCorp
+			transform translateY(48px)
+	&__link:hover::after
+		opacity 1
+		border 2px solid colorCorp
+		transform translateY(48px)
+	&__link_phone
+		font-size: 15px
+		&::after
+			border 0
